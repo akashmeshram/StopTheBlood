@@ -1,5 +1,8 @@
 # Save the Blood
 
+[![Project Video Here](https://img.youtube.com/vi/lc2i0AFmypY/0.jpg)](https://youtu.be/lc2i0AFmypY)
+
+
 ## Project setup
 ```
 npm install
