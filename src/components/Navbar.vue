@@ -1,8 +1,8 @@
 <template>
   <div class="row">
-      <div class="col s4">
+      <div class="col s4 ">
         <a href="#" v-on:click="$emit('OnClick', 'learn')">
-          <div class="card">
+          <div class="card hoverable">
             <div class="card-image">
               <img src="./images/sample-1.png">
             </div>
@@ -15,7 +15,7 @@
 
       <div class="col s4">
         <a href="#" v-on:click="$emit('OnClick', 'train')">
-          <div class="card">
+          <div class="card hoverable">
             <div class="card-image">
               <img src="./images/sample-5.jpg">
             </div>
@@ -28,12 +28,12 @@
 
       <div class="col s4">
         <a href="#" v-on:click="$emit('OnClick', 'registry')">
-          <div class="card">
+          <div class="card hoverable">
             <div class="card-image">
               <img src="./images/sample-3.jpg">
             </div>
             <div class="card-content">
-              <p>Registry for Incident</p>
+              <p>Registry </p>
             </div>
           </div>
         </a>
