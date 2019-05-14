@@ -1,12 +1,17 @@
 <template>
-  <div class="container">
-    <Header/>
-    <Navbar v-on:OnClick='changeTab'/>
-    <div v-if= 'currenttab == "learn"'>
-      <Learn />
-    </div>
-    <div v-if= 'currenttab == "train"'>
-      <Train />
+  <div>
+    <Header v-on:OnClick='changeTab'/>
+    <div class="container">
+      <Navbar v-on:OnClick='changeTab'/>
+      <div v-if= 'currenttab == "learn"'>
+        <Learn />
+      </div>
+      <div v-if= 'currenttab == "train"'>
+        <Train />
+      </div>
+      <div v-if= 'currenttab == "registry"'>
+        <Register />
+      </div>
     </div>
   </div>
 </template>
@@ -16,6 +21,7 @@ import Header from './components/Header.vue'
 import Navbar from './components/Navbar.vue'
 import Learn from './components/Learn.vue'
 import Train from './components/Train.vue'
+import Register from './components/Register.vue'
 
 export default {
   name: 'app',
@@ -23,7 +29,8 @@ export default {
     Header,
     Navbar,
     Learn,
-    Train     
+    Train,
+    Register
   },
   data: function () {
     return {
