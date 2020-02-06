@@ -29,5 +29,6 @@ npm run test
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Author <a name = "authors"></a>
+- [Akash Meshram](https://github.com/akashmeshram) 
+- [Rishabh Sighal](https://github.com/rishabh30) 
